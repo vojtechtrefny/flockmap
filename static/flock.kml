@@ -382,5 +382,14 @@
     </Point>
   </Placemark>
   
+  <Placemark>
+    <name>Restaurant Masarykova kolej</name>
+    <description><![CDATA[Lunch]]></description>
+    <styleUrl>#restaurant</styleUrl>
+    <Point>
+      <coordinates>14.387101,50.100793,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
 </Document>
 </kml>
