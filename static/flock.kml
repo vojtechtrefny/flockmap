@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Flock 2014</name>
+  <description><![CDATA[List of pubs, restaurants, important places for transportation and other places worth to see. Created for Flock Conference 2014]]></description>
+  <Style id="university">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/health-education/education/university/ -->
+          <href>static/icons/university.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="entrance">
+    <IconStyle>
+      <Icon>
+          <href>static/icons/entrance.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="comment-map-icon">
+    <IconStyle>
+      <Icon>
+          <href>static/icons/comment-map-icon.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="train">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/other-types-of-transportation/train/ -->
+        <href>static/icons/train.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="bus">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/road-transportation/bus/ -->
+          <href>static/icons/bus.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tramway">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/other-types-of-transportation/tram/ -->
+        <href>static/icons/tramway.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  
+  <Style id="underground">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/other-types-of-transportation/subway/ -->
+        <href>static/icons/underground.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="airport">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/aerial-transportation/airport/ -->
+        <href>static/icons/airport.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="sight">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/sight/ -->
+          <href>static/icons/sight-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="castle">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/old-defensive-buildings/castle/ -->
+          <href>static/icons/castle-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="cathedral">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/cult-religion/cathedral/ -->
+          <href>static/icons/cathedral.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="restaurant">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/restaurant/ -->
+        <href>static/icons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="grocery">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/stores/food-drink/grocery/ -->
+          <href>static/icons/grocery.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="coffee">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/bars/coffee/ -->
+          <href>static/icons/coffee.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="pizzaria">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/pizzaria/ -->
+          <href>static/icons/pizzaria.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="urbanpark">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/park/ -->
+          <href>static/icons/urbanpark.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="hostel_0star">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/hotels/hostel -->
+          <href>static/icons/hostel_0star.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="lodging_4stars">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/hotels/lodging/ -->
+          <href>static/icons/lodging_4stars.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="lodging_3stars">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/hotels/lodging/ -->
+          <href>static/icons/lodging_3stars.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="bar">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/bars/bar/ -->
+          <href>static/icons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="steakhouse">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/steakhouse/ -->
+        <href>static/icons/steakhouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="fastfood">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/fast-food/ -->
+        <href>static/icons/fastfood.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="hospital">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/health-education/health/hospital/ -->
+          <href>static/icons/hospital-building.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="office">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/offices/real-estate/office-building/ -->
+        <href>static/icons/office-building.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="church">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/cult-religion/church/ -->
+          <href>static/icons/church-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="citysquare">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/city-square/ -->
+          <href>static/icons/citysquare.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tower">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/old-defensive-buildings/tower/ -->
+        <href>static/icons/tower.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="theater">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/theater/ -->
+          <href>static/icons/theater.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="dancinghall">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/music/dancing-hall/ -->
+          <href>static/icons/dancinghall.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="wordheritage">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/world-heritage-site/ -->
+          <href>static/icons/worldheritagesite.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="museumart">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/museums/art-museum/ -->
+          <href>static/icons/museum_art.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="anthropo">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/museums/museum-of-anthropology/ -->
+          <href>static/icons/anthropo.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="parking">
+    <IconStyle>
+      <Icon>
+          <href>static/icons/parking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Faculty of Information Technology</name>
+    <description><![CDATA[<div dir="ltr">The place where the <b>Flock 2014</b> takes place (first building).<br><br>Thákurova 9, Praha 6</div>]]></description>
+    <styleUrl>#university</styleUrl>
+    <Point>
+      <coordinates>14.38976,50.105084,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Faculty of Civil Engineering</name>
+    <description><![CDATA[<div dir="ltr">The place where the <b>Flock 2014</b> takes place (second building).<br><br>Thákurova 7, Praha 6</div>]]></description>
+    <styleUrl>#university</styleUrl>
+    <Point>
+      <coordinates>14.3885484,50.104265,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Hotel Diplomat</name>
+    <description><![CDATA[Hotel Diplomat.<div>Our recommended hotel. 10-minute walk from the conference venue. </div><div><br>&nbsp;</div><div><a href="http://www.vi-hotels.com/en/diplomat/" target="_blank">web page</a></div>]]></description>
+    <styleUrl>#lodging_4stars</styleUrl>
+    <Point>
+      <coordinates>14.3899556,50.099627,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Sinkuleho kolej</name>
+    <description><![CDATA[<div>Low cost accommodation in CTU dormitories. </div><div><br>&nbsp;</div><div><a href="https://www.suz.cvut.cz/en/dormitories/the-sinkuleho-dormitory" target="_blank">web page</a></div>]]></description>
+    <styleUrl>#hostel_0star</styleUrl>
+    <Point>
+      <coordinates>14.389927,50.101547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Dejvická bus stop</name>
+	<description><![CDATA[<div dir="ltr">Public transport bus station. Bus no. <b>119</b> (direct line from/to Prague Airport) stops here.</div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>14.391552,50.100281,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Dejvická subway station</name>
+	<description><![CDATA[<div dir="ltr">Public transport subway ("Metro") station. Terminal station for subway line A (green line).]]></description>
+    <styleUrl>#underground</styleUrl>
+    <Point>
+      <coordinates>14.393173,50.10047,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Thákurova tram station</name>
+	<description><![CDATA[<div dir="ltr">Public transport tram station. Lines <b>20</b> and <b>26</b> (direct line from/to Main train station).</div>]]></description>
+    <styleUrl>#tramway</styleUrl>
+    <Point>
+      <coordinates>14.3857692,50.1001169,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Lotyšská tram station</name>
+	<description><![CDATA[<div dir="ltr">Public transport tram station. Lines <b>5</b> and <b>8</b> (direct line from/to ÚAN Florenc bus station).</div>]]></description>
+    <styleUrl>#tramway</styleUrl>
+    <Point>
+      <coordinates>14.3950217,50.1041733,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>ÚAN Florenc bus terminal</name>
+	<description><![CDATA[<div dir="ltr">The best way to get to the conference from here, is to use the subway ("Metro"). From Florenc take line C (red) to Muzeum station. Here change to line A (green) and continue to Dejvická station.</div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>14.4409192,50.0893767,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Prague airport</name>
+    <description><![CDATA[<div dir="ltr">The best option to get to the Flock conference from here is to take bus number <b>119 </b>and to get off at the Dejvická - terminate station.</div>]]></description>
+    <styleUrl>#airport</styleUrl>
+    <Point>
+      <coordinates>14.263043,50.101698,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Main train station</name>
+    <description><![CDATA[The best way to get to the conference from here, is to use the subway ("Metro"). From Main train station take line C (red) to Muzeum station. Here change to line A (green) and continue to Dejvická station.</div>]]></description>
+    <styleUrl>#train</styleUrl>
+    <Point>
+      <coordinates>14.43604,50.083062,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Cafe Traverza</name>
+    <description><![CDATA[Cafe and pub.<div><br>&nbsp;</div><div><a href="http://www.cafe-traverza.cz/en/" target="_blank">web page</a></div>]]></description>
+    <styleUrl>#coffee</styleUrl>
+    <Point>
+      <coordinates>14.390343,50.103847,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Parking lot</name>
+    <description><![CDATA[Best parking spots]]></description>
+    <styleUrl>#parking</styleUrl>
+    <Point>
+      <coordinates>14.389168,50.105332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+</Document>
+</kml>
